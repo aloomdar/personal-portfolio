@@ -36,7 +36,7 @@ export default function Home() {
         </nav>
         <div className="header-section mt-20 flex flex-col items-center justify-center gap-10 p-10 text-center text-base text-gray-800 xl:flex-row xl:text-3xl">
           <img
-            className="first-pic h-128 rounded-full shadow-xl/45 outline-slate-500 outline-solid md:w-auto md:w-128"
+            className="first-pic h-128 rounded-full shadow-xl/45 outline-slate-500 outline-solid md:w-auto md:w-128 aspect-square object-cover sm:aspect-auto"
             src="me-1.jpeg"
           />
           <h1 className="self-description text-3xl xl:text-4xl">
@@ -60,7 +60,7 @@ export default function Home() {
           <h1 className="text-4xl underline xl:text-5xl">About Me</h1>
           <p className="self-description max-w-2/3">
             <img
-              className="float-right mb-2 ml-6 aspect-square h-40 rounded-full object-cover shadow-xl/45 outline-slate-500 outline-solid"
+              className="mb-2 float-end ml-6 aspect-square h-40 rounded-full object-cover shadow-xl/45 outline-slate-500 outline-solid sm:float-right"
               src="me-2.jpg"
             />
             Hello! I'm Alamdar Qanoongo, a passionate software engineer with a
